@@ -13,6 +13,10 @@ Winter 21/22 assessment for the ``Machine Learning & Statistics`` module (5 Cred
 
 ### Topic: [``scikit-learn``](https://nbviewer.jupyter.org/github/SeanOhAileasa/mls-scikit-learn-scipy-stats/blob/main/scikit-learn.ipynb)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SeanOhAileasa/mls-scikit-learn-scipy-stats/HEAD?labpath=scikit-learn.ipynb)
+
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SeanOhAileasa/mls-scikit-learn-scipy-stats/blob/main/scikit-learn.ipynb)
+
 - Overview of the ``scikit-learn`` Python library.
 
 
@@ -22,6 +26,10 @@ Winter 21/22 assessment for the ``Machine Learning & Statistics`` module (5 Cred
 - Using plots and other visualisations to enhance the notebook for viewers.
 
 ### Topic: [``scipy-stats``](https://nbviewer.jupyter.org/github/SeanOhAileasa/mls-scikit-learn-scipy-stats/blob/main/scipy-stats.ipynb)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SeanOhAileasa/mls-scikit-learn-scipy-stats/HEAD?labpath=scipy-stats.ipynb)
+
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SeanOhAileasa/mls-scikit-learn-scipy-stats/blob/main/scipy-stats.ipynb)
 
 - Overview of the ``scipy-stats`` Python library.
 

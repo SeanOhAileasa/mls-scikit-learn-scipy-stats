@@ -1,0 +1,215 @@
+commit 2f3dd960e42bf93c1d814c360e91279db9e0bdd5
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Fri Nov 19 22:40:18 2021 +0000
+
+    DAY:29 - [Notebook: scipy-stats]: (Last Commit) Add notes for better clarity plus additional plots to distinguish sample versus population. (Introduction) Adding a new collection highlights the limitations of the t-test. Several t-tests in parallel increase the chance of making an error. Samples from the same population using a cut-off result in a high False Positive rate because of repetition. (Propose) Move onto section - Solution - introducing ANOVA.
+
+commit 6d4a51254602be1e81efddec87275b758a8b82bc
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Wed Nov 17 21:38:21 2021 +0000
+
+    DAY:31 - [Notebook: scikit-learn]: (Last Commit) Using the obtained coefficients via sklearn to perform predictions. (Introduction) Finally, able to take a value on which to make a prediction based on the coefficients (trained dataset) found earlier. Summarised section - Regression - with a blurb about determinism and how the obtained coefficients are more than just data but actually form part of a machine learning function. (Propose) At this stage, the three algorithms of interest have been introduced, albeit revision is required. Propose tidying up the Notebook thus far, making the presentation concise and filling in any blanks. Then proceed with the section - Solution (cyber security). In the interim on Day:30 revisit section - Project Management.
+
+commit b6c715003432a3f054236df027adde3fe1b7f28a
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Nov 14 19:01:41 2021 +0000
+
+    DAY:34 - [Notebook: scikit-learn]: (Last Commit) Thus far, the actual values from the penguins dataset are fit to the model. (Introduction) Determined the coefficient of determination of the prediction (a measure of how well the lines fits the dataset). Then asked the model for i. the y-intercept (value of y when x is zero) and; ii. the slope or gradient for the coefficients b and m. (Propose) Use the obtained coefficients (parameter p), sklearn found (trained) and pass in the function f to perform the prediction.
+
+commit 916cfaf336885ce5102f6f9502bce277b1078f8d
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Fri Nov 12 14:40:47 2021 +0000
+
+    DAY:36 - [Notebook: scipy-stats]: (Last Commit) Proposed finally moving onto ANOVA by way of highlighting the limitations of the t-test. Instead have rewritten the whole Notebook completed thus far (except Appendix) to be more concise for ease of readability. Significant amendments include i. denoting repeated terms when first introduced; ii—using equations (with tags for reference); iii—less repeated commentary. In review/rewriting the Notebook, there were errors in its presentation, albeit all now in order. (Propose) Maintaining same Notebook structure and introducing ANOVA (by way of highlighting the limitations of the t-test (i.e. submitting three or more collections).
+
+commit bdaf712045b45f9375af77d4fd7e329968c1e4e4
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Thu Nov 11 20:06:47 2021 +0000
+
+    DAY:37 - [Notebook: scikit-learn]: (Last Commit) To start the automation process enlarging the regplot already created. (Introduction) Visually prediction based on minds eye by drawing a straight line vertically from the x-axis stopping at the best fit line and moving across the horizontal. The automation algorithm pairs the x-axis values to the y-axis values to find the relationship between the two collections of numbers. To determine the coefficients (parameters for the best fit line) first manipulated the two collection to ensure the correct ordering of inputs to sklearn (reshape also required due to package techniciallies). Finally fit the actualy values from the dataset to the model. (Propose) Determine the: i. score ii. intercept (b) iii. coeeficients (b & m) in line with the same pattern of the function f (linear model) introduced earlier - f(input, trained).
+
+commit 35dc247229a9194e56995221670982dd75212276
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Tue Nov 9 20:03:44 2021 +0000
+
+    DAY:39 - [Notebook: scikit-learn]: (Last Commit) Appropriately concise given introduction albeit the section - Introduction - does require revision before proceeding to section - Solution (cybersecurity-related). (Introduction) Extracted columns under investigation, creating a new DataFrame. Using the seaborn function regplot to i. plot the data extracted and ii. produce a linear regression model fit. (Propose) Automating the predictions by following the process outlined in the section - Preface - using package sklearn.
+
+commit 3c9502f057c356eda8ffb471fc375b14a8a90445
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Mon Nov 8 20:35:21 2021 +0000
+
+    DAY:40 - [Notebook: scipy-stats]: (Last Commit) No comment. (Appendix) Completed t-test on the real-world sleep dataset. The dataset consists of two groups with a before measurement and an after intervention measurement. It is tested with a 0.5 confidence level to determine a difference between the two groups (drugs). (Propose) Introducing ANOVA (by way of highlighting the limitations of the t-test (i.e. submitting three or more collections).
+
+commit f926577805b810ceb8bfc3ee24022954fecfab4a
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Mon Nov 8 20:07:34 2021 +0000
+
+    DAY:40 - [Notebook: scipy-stats]: (Last Commit) Similiar to the previous commit reviewed the remainder of the Notebook (subsection - Error). Day: 45 proposed reviewing Notebook due to delays and being behind schedule. Notebook is now up to date with further explanatory blurbs to better understand concepts (ready to proceed with new content). (Introduction) Add blurbs to subsection - Error. (Propose) i. Doing a t-test on a real-world dataset but for the moment adding to the Appendix (with the option to remove later if deemed appropriate). ii. Introducing ANOVA (by way of highlighting the limitations of the t-test (i.e. submitting three or more collections).
+
+commit 40dbbce75b89ec27de5c29427db1c183168c8670
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Mon Nov 8 19:26:08 2021 +0000
+
+    DAY:40 - [Notebook: scipy-stats]: (Last Commit) Proposed to continue reviewing the Notebook in the same fashion as the last commit before moving on to introducing ANOVA. (Introduction) Add blurbs to subsection - Scipy Stats - and capture the appropriate section of package/function documentation introduced into the Notebook for ease of readability and understanding without the need for explanation. Removed reference to statsmodels.stats as it thus far was used to verify the return values from scipy.stats.ttest_ind plus return the degrees of freedom (which is trivial to calculate). (Propose) Continue reviewing the Notebook in the same fashion (subsection - Error) before moving on to introducing ANOVA (by way of highlighting the limitations of the t-test.
+
+commit 20bbb54d7caf9b36689056f104e07ae4153bf04d
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Nov 7 21:13:49 2021 +0000
+
+    DAY:41 - [Notebook: scipy-stats]: (Last Commit) Proposed reviewing the Notebook thus far before proceeding to ANOVA. (Introduction) Add blurbs to subsection - Simulation - and capture the appropriate section of package/function documentation introduced into the Notebook for ease of readability and understanding without the need for explanation. (Propose) Continue reviewing the Notebook in the same fashion before moving on to introducing ANOVA.
+
+commit 93630bc92cb0a1e292de9e4913893293f3def6c8
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sat Nov 6 21:03:21 2021 +0000
+
+    DAY:42 - [Notebook: scikit-learn]: (Last Commit) Introduced the scenario of creating a function passing an argument trained on some pattern to make predictions. Proposed analysing the seaborn package builtin dataset penguins. (Introduction) Loading the penguins dataset creates a DataFrame to analyse the relationship between a penguins body mass and flipper length. Add a pairwise plot of the relationships in the dataset to highlight characteristics. Proposing to analyse the relationship between body mass and flipper length given the visual appearance of a line on the plot. (Propose) Extract variables of interest and plot the line.
+
+commit 9473e7ba68427459945912f995f8a85f896547d6
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sat Nov 6 20:32:37 2021 +0000
+
+    DAY:42 - [Notebook: scikit-learn]: (Last Commit) The preface requires revision. (Introduction) Add a blurb about creating a function that takes the input to make a prediction based on an observed pattern from which the input will be trained. The trained collection of pattern values used on the input will provide predictions (asking given the input what the output is). The idea behind machine learning is often to predict something. (Propose) Using the seaborn package built-in dataset, penguins training a simple model by analysing the relationship between a penguins body mass and flipper length. In the interim to first analysis the dataset penguins.
+
+commit 6d168145eea93dd3a2c16b0f632ebab1873308d7
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Thu Nov 4 20:40:47 2021 +0000
+
+    DAY:44 - [Notebook: scikit-learn]: (Last Commit) Very rough work in completing the preface (requires revision). (Preface) Add a blurb about regression and how it differs from correlation. Regression indicates how one variable can be predicted from another—building upon the earlier extrapolated data with a plot on what to expect from regression analysis. Given assessment is behind schedule moving away from the preface for the moment. (Propose) Move onto regression using scikit-learn without hacking example code from the sklearn documentation given introduction via preface (albeit not finished and requiring revision).
+
+commit 76c04b2fd6e45c1a8e0a8671a68267fe663daa26
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Wed Nov 3 17:01:00 2021 +0000
+
+    DAY:45 - [Notebook: scipy-stats]: (Last Commit) Fifteen days since the last commit. Proposed moving away from t-tests onto ANOVA but given behind schedule reviewing Notebook before proceeding. (Project Management) Added chart splitting commits completed on both assessment notebooks. Adding title and labels to plots presented thus far. (Propose) Before moving on to introducing ANOVA reviewing the Notebook and filling in any blank.
+
+commit d90a162b41cbe10b40e1b180d410a42a032b5f21
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Oct 31 19:41:21 2021 +0000
+
+    DAY:48 - [Notebook: scikit-learn]: (Last Commit) Added labels (x and y) to plot representing height and weight (Preface). (Preface) Adding to data-driven problem introducing Pearson's r correlation and determining both height and weight are positively related and the strength of this relationship is strong. (Propose) Finish preface presentation on how regression differs from correlation and move onto regression via scikit-learn.
+
+commit abbee0c9f0840a2f34995798ad94e4c84581398c
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Thu Oct 28 21:04:00 2021 +0100
+
+    DAY:51 - [Notebook: scikit-learn]: (Last Commit) Redoing regression introduction presented thus far and presenting it under new section (Preface). (Preface) Presenting a simple (near real-world) data-driven problem demonstrate the practice of i. data collection; ii. descriptive statistics; iii. correlation; iv. data visualisation; v. model building; vi. extrapolation and regression analysis without the use of scikit-learn. (Propose) Building upon the near real-world dataset to introduce Pearson's r correlation and how regression differs from correlation by indicating how a variable can be predicted from another.
+
+commit 886cdcbe26318b7e8261d78f0eccb7f2793f29ca
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Wed Oct 27 16:21:37 2021 +0100
+
+    DAY:52 - [Notebook: scikit-learn]: (Last Commit) Nearly all of machine learning is a regression in some form. Given its importance, moving the last unit of work (last commit) to a new section. (Project Management) Due to illness, the project is behind schedule (x5 days); therefore, endeavour to submit at least two commits (units of work) per day for the next five days to catch up. (Structure) Included for ease of readability. (Preface) Moving last commit (unit of work) regarding regression to this section. (Propose) Elaborating on the topic of regression (without reference to sklearn) to a simple data-driven problem and introducing basic information where appropriate.
+
+commit 83a7aa2e54e21973c2fa019a2fa5209eaa266529
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Fri Oct 22 21:00:13 2021 +0100
+
+    DAY:57 - [Notebook: scikit-learn]: (Last Commit) Thus far introduced two algorithms of choice and now moving on to regression. (Introduction) Using a simple plot by way of introducing a regression. Two collections represent two points on the plot. Blurb about the equation of a line as thought in school (given the equation and draw the line) and that regression is the opposite idea whereby not given an equation but given points on the line and then trying to fill in the blanks. (Propose) This is a very light touch introduction to regression.
+
+commit b62e5b52a574001c8acb2401d7a1e60676e4d18b
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Wed Oct 20 21:28:39 2021 +0100
+
+    DAY:59 - [Notebook: scikit-learn]: (Last Commit) On trained data predictions were incorrect. (Introduction) The three algorithms under investigation are i. classification; ii. regression and iii. clustering - introducing model selection given its appropriate to determine the relationship between the input and output data. In addition, it is also closely related to regression (next algorithm to investigate). Training the KNN on a random selection (75%) and using the remaining data points (25%) to test the classifier. The KNN is predicted from input not seen before. It is important to note rerunning the notebook may produce different results given that the splitting of the overall iris dataset has a random element to it. (Propose) Moving onto regression for completion by day 50 then onto the solution section, introducing the algorithms with cybersecurity in mind (might be a bit ask at this early stage - revert with a decision to proceed).
+
+commit 41ecbe211326767bf6b443e63f31f92b4642021d
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Tue Oct 19 19:41:43 2021 +0100
+
+    DAY:60 - [Notebook: scipy-stats]: (Last Commit) Run 20000 t-tests instead of 100000. Analyst deems appropriate percentage chance collections are different even if they come from the same central point - adding a blurb about vaccines and changing the percentage chance to something more appropriate. (Introduction) Quantify how often false negatives occur (the power of the test). While false positives (Type I Errors) are built-in false negatives (Type II Errors) depend on the difference between two mean values and are difficult to quantify. (Propose) Moving away from t-tests for the moment to introduce the ANOVA.
+
+commit a4d0c622054a1d2a8bcf75c9d04811f82581f337
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Sun Oct 17 21:11:01 2021 +0100
+
+    DAY:62 - [Notebook: scipy-stats]: (Last Commit) Reviewed alternative approach in asking the t-test question. (Introduction) Built into statistical tests such as the t-test is the fact a wrong decision may be made. Adding to this such tests try to manage/quantify errors. Running 100000 t-tests and generating two new collections each time having the same central value and giving the t-test a 5% chance of determining both are different (albeit are the same). Rerunning the t-test with different means. These are false positives (Type I Error). It is the analyst who deems what percentage is appropriate to deem both collections are different even if both come from the same central point. (Propose) Moving onto a false negative (Type II Error) which is harder to quantify and depends on how close the means are.
+
+commit ad1127f7d408babec9df36bf918cfd1144520556
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Sat Oct 16 20:39:53 2021 +0100
+
+    DAY:63 - [Notebook: scipy-stats]: (Last Commit) PDF plot demonstrates what the t-test is checking (if the tips of both curves are at the same point). (Introduction) Brief blurb about assumptions thus far and other possible assumptions that could be made. Introducing a different way of asking the t-test question. Subtracting the centre point of each collection and if the result is zero then both are the same therefore end up with a t-distribution. Getting the t-value (t-statistic) and the critical value used to make a decision (calculation of the t-statistic from the samples). If the probability of seeing such a t-value given the hypothesis that there is no difference between the means then the data is suggesting to reject that hypothesis. (Propose) Built into statistical tests is the fact that a wrong decision may be made. Adding blurb about errors.
+
+commit 9e7d0aff1e628ac47c7b9a1f6c224113dcdc6c26
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Thu Oct 14 19:44:45 2021 +0100
+
+    DAY:65 - [Notebook: scikit-learn]: (Last Commit) Checked only a small number of predictions. (Introduction) A facet of the classification algorithm it that it does not make the right prediction even for values that it has been trained upon. When comparing the output data series to the KNN classifier predictions it is getting five of the inputs incorrect. It is possible to see why using 2-dimensional plots. The KNN classifier makes the prediction based on the five closest data points in the dataset. (Propose) Even on the trained data it does not make correct predictions. Rebuilding the KNN classifier for input not seen before.
+
+commit 5f9edad1059206a4e4f97c5a75ba9331f482c116
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Wed Oct 13 20:19:36 2021 +0100
+
+    DAY:66 - [Notebook: scipy-stats]: (Last Commit) Introduced an additional collection for demonstrating when two collections are centred around the same value so that the original collections when first run remain throughout the notebook. (Introduction) In order to interpret what a t-test does plotting the uncertainty (probability density function PDF) when generating numbers in the two normal generated collections. The plot demonstrates the t-test is checking (questions) if the tips of both curves (each collection) are at the same point or not. Additional plot demonstrates when both collections coincide. (Propose) Adding blurb about underlying assumptions and another way of asking the t-test question (if the centre point of each collection is the same or not).
+
+commit 7f62028c85d9d3ea948b3ff119b9179dc736f134
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Mon Oct 11 17:13:43 2021 +0100
+
+    DAY:68 - [Notebook: scikit-learn]: (Last Commit) The iris dataset is up and running and split between inputs (numeric columns) and output being the class of iris (categorical variable). (Introduction) Building KNN classifier selecting five nearest neighbours. Implementing the KNN vote via parameter n_neighbors determining the majority vote. Then training the classifier on the dataset by giving the classifier the inputs for which the outputs are known. The instance object returned from the classifier (instance of KNN) is fit with the actual data points. This information is used to build up a model of what a class of iris looks like and can make predictions about what a class of iris is based on measuring its sepal length and sepal width and petal length and petal width. Appears to be predicting the correct class for a data point that it already has (easily verifiable). (Propose) Rebuilding the KNN classifier for input not seen before.
+
+commit 6f53c678277bc0b27b7c1a217dfea2842c6f87fe
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Sun Oct 10 18:58:02 2021 +0100
+
+    DAY:69 - [Notebook: scikit-learn]: (Last Commit) The hacked example code from the sklearn.neighbors.KNeighborsClassifier documentation require revision with the use of plots and further explanation of topics. (Introduction) Instead of simulating a dataset (as done with sklearn.cluster.KMeans) using the famous iris dataset. Making the case for using the dataset based on observations and plots built out. Purpose is to take the values of the four variables (i. sepal length, ii. sepal_width, iii. petal_length and iv. petal_width) to predict the class of iris flower. Separating the data structure (DataFrame created from the dataset) into inputs and outputs in order to train up the KNN algorithm (having a set of inputs for which the outputs are known). (Propose) Building the KNN classifier for a given number of neighbors then training the classifier on the dataset. Fitting inputs (training) and output (targets) then make predictions based on the trained KNN classifier.
+
+commit 77f809fe6f8b28a56d863bf2298576e4dd20c166
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Fri Oct 8 20:07:59 2021 +0100
+
+    DAY:71 - [Notebook: scikit-learn]: (Last Commit) The sklearn.cluster.KMeans section requires revision but in the meantime moving onto the classification algorithm sklearn.neighbors.KNeighborsClassifier. (Introduction) Hacking the example code from the sklearn.neighbors.KNeighborsClassifier documentation. Short blurb on the data structure representing the KNN algorithm whereby parameter n_neighbors selects the specified number of nearest neighbours. Training the classifier with X for which the y is known. Method fit tells the KNN data structure the actual data point or setup for KNN. The KNN algorithm can make predictions based on the trained KNN classifier. (Propose) Creating a classification simulation with plotting or use the iris dataset to further develop understand of the sklearn.neighbors.KNeighborsClassifier algorithm.
+
+commit a50ef7b2591f648d867efcd0117eb211cddc636e
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Thu Oct 7 20:17:02 2021 +0100
+
+    DAY:72 - [Notebook: scikit-learn]: (Last Commit) Implemented simulation without analysis. Amendments include: i. tidy table of contents and ii. ensuring function parameter included when appropriate. (Introduction) Following the steps from the reengineered example code from the sklearn.cluster.KMeans documentation introduced sklearn.cluster (without commentary). Plotting the simulation dataset making both clusters identifiable then using new values to make a prediction. Plotting the prediction and the centre KMeans determines are the centre points based on where the points sit on the plot. An additional collection of evenly spaced values is introduced and plot. These dummy points (for classification) are used to highlight the decision boundary from where KMeans determines associated cluster via each cluster centre. (Propose) Thus far touched on the scikit-learn clustering algorithm and requires revision. For the moment going to proceed onto the scikit-learn classification algorithm following the same process as the clustering demonstration. First step is to reengineered example code from the sklearn.neighbors.KNeighborsClassifier documentation.
+
+commit b2894f773cff3baf3723936213f52cbbe7b2841d
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Wed Oct 6 21:17:11 2021 +0100
+
+    DAY:73 - [Notebook: scikit-learn]: (Last Commit) The reengineered example code from the sklearn.cluster.KMeans documentation requires no further examination. (Introduction) To support the reengineered example code from the sklearn.cluster.KMeans documentation now proceeding with simulating a (generated) dataset. Picked two central points from which two clusters of randomly generated values will be built upon. The process involved: i. stacking the collections on top of each other; ii. merging the two collections and iii. shuffling the values of the final collection so that the groups are not identifiable. Created a plot of the generated dataset without any analysis. (Propose) Thus far each commit in both notebooks is probably representing a number of individual units of work (commits). Propose breaking down units of work given commit history will get unwieldy. Next step will involve using the sklearn.cluster.KMeans on the simulated dataset (similar to the sklearn.cluster.KMeans reengineered documentation code completed prior).
+
+commit 6cbed5822725fd9ea2002eba39d1b5d9a5419334
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Tue Oct 5 19:56:46 2021 +0100
+
+    DAY:74 - [Notebook: scipy-stats]: (Last Commit) Introductory blurb about the t-test may requires less depth and explanation especially referencing machine learning. Chop to a more concise description - revert [DAY:20,0). (Introduction) Demonstrating the t-test by simulating two collections (random numbers) built upon a specified mean and spread (standard deviation). Creating a data structure (DataFrame) from the generated collections and separating both collections into category. Visualisation of the data structure via categorical plot (seaborn) clearly shows both collections differ. Using two methods (i. scipy.stats and; ii. statsmodels.stats.weightstats) performing the actual t-test (determine the probability that the distribution from which the two generated collections had the same mean). The simulated (generated) collections demonstrate a probability of approximately zero or no chance both collections had an underlying distribution in which both had the same mean value because the simulation was setup like this. Running the statistical tests provide evidence that its reproducibly true. Even when both collections have been setup with the same mean value and if the probability is higher than the p-value cut-off of 5% then the statistical test does not provide any evidence the two collections are not centred around same point.
+
+commit bd6a1159a5f1d84326bbe91efc5d5be3a22b9bb1
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Mon Oct 4 21:09:13 2021 +0100
+
+    DAY:75 - [Notebook: scipy-stats]: (Last Commit) Introductory blurb about the analysis of variance (ANOVA) requires more depth and explanation - revert [DAY:20,0). (Introduction) Taking a step backwards to introduce the t-test and build upon. Introductory blurb about the old-style statistical test called the t-test provides a grounding in the ideas around machine learning. (Propose) Generating two collections of random numbers and creating a data structure built from both then visualising to determine if both collections differ in general enough to justify saying one collection is different to the other collection.
+
+commit cd88af3e23ea5b6c246da885d323f2d4de6ac63d
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Sat Oct 2 21:08:12 2021 +0100
+
+    DAY:77 - [Notebook: scikit-learn]: (Last Commit) Reengineered example code from the sklearn.cluster.KMeans documentation to be supported with simulated data before moving onto a real-world implementation (re. Solution). (Introduction) Using matplotlib.pyplot plotting documentation example dataset (converting into an appropriate format beforehand). Once the x and y values are separated the plot appears to support the fact there exists two distinct groups of points. The KMeans algorithm determines if two distinct groups exist (allows for a human to be able to determine). Visually changed the colour of the second cluster to distinct both groups and added two new points to test KMeans. Using the KMeans prediction the new points are coloured according to associated (predicted) cluster. Plotting what the KMeans algorithm took as the centre of each clusters gives an indication how the algorithm came to its prediction. (Propose) Creating a clustering simulation with plotting to further develop understand of the sklearn.cluster.KMeans algorithm.
+
+commit d321c05f8ca8b5ac863badd05cd6d18c4b2cf577
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Fri Oct 1 20:35:07 2021 +0100
+
+    DAY:78 - [Notebook: scikit-learn]: (Last Commit) Introductory blurbs about scikit-learn and each of the scikit-learn algorithms of interest require more depth and explanation - revert [DAY:20,0). Commit proposes researching classification. This was a typo and should be clustering. (Introduction) Hacking the example code from the sklearn.cluster.KMeans documentation. Short blurb on the parameters of object KMeans (i. n_clusters and ii. random_state) and method fit which computes the k-means clustering. Two clusters specified and the attribute labels_ confirms this. Making a prediction using method predict passing two new points predicts associated cluster. Attribute cluster_centers returns what the KMeans algorithm took as the centre point of each cluster. (Propose) Plotting the dataset X separating the two clusters.
+
+commit 60956a92a82d7c3be0b4000db1fe1586cca94034
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Thu Sep 30 21:10:53 2021 +0100
+
+    DAY:79 - [Notebook: scipy-stats]: (Last Commit) i. Blank Jupiter notebook created and; ii. submitted GitHub repository URL to GMIT. (Abstract) Brief introductory blurb about the analysis of variance (ANOVA) and its application beyond comparing just two populations (t-test). (Propose) Researching t-tests and especially F-Ratios (central part of ANOVA) before proceeding.
+
+commit 023bf6b96aca8dfb2ea833cba6fc6101b8f334ad
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Wed Sep 29 19:44:12 2021 +0100
+
+    DAY:80 - [Notebook: scikit-learn]: (Last Commit) i. Blank Jupiter notebook created and; ii. submitted GitHub repository URL to GMIT. (Abstract) Introductory blurb about scikit-learn. (Introduction) Short blurb on each scikit-learn algorithms of interest: i. classification; ii. regression and iii. clustering. Classification thought of in terms of labelling data (e.g., images of hand drawn digits). Regression thought of in terms of fitting a line to a set of points (e.g., all of science). Clustering thought of in terms of grouping like items together (e.g., iris dataset). (Propose) Researching classification by simulating a collection of data and introducing sklearn.cluster.
+
+commit 39127b924e9bd70b79bacd7c3abb363390364bb6
+Author: SeanOhAileasa <seanohaileasa@protonmail.com>
+Date:   Mon Sep 27 15:42:14 2021 +0100
+
+    add repository ./mls-scikit-learn-scipy-stats
