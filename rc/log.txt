@@ -1,3 +1,9 @@
+commit 15f56af05a1131c48dd2a33e77b3bf8bb70d1aa1
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sat Nov 20 20:16:24 2021 +0000
+
+    DAY:28 - [Configuration]: Add requirements.txt to enable interactive notebooks via Binder. Add Binder and nbviewer (static view) badges to README.md. Add script (fullscreen.py) to utilise full Jupyter Notebook screen via nbviewer. Move log.txt (git log) to ./rc.
+
 commit 2f3dd960e42bf93c1d814c360e91279db9e0bdd5
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Fri Nov 19 22:40:18 2021 +0000
