@@ -1,3 +1,9 @@
+commit aa31cc24e8c8bbe4e12607cf565990e3ace3a709
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Thu Nov 25 21:51:55 2021 +0000
+
+    DAY:23 - [Notebook: scipy-stats]: (Last Commit) No commentary. (Introduction) Add a blurb about ANOVA. Applied ANOVA to three samples. Although similar to the t-test the ANOVA compares samples in parallel and still allows for a p-value cutoff of 0.05. (Propose) Expanding on the ANOVA function f_oneway using the code from the scipy documentation and obtain an appropriate dataset for section - Solution.
+
 commit 5783a8d6e4da6272a6fe4fe461c94e526eb31de9
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Sun Nov 21 20:49:05 2021 +0000
