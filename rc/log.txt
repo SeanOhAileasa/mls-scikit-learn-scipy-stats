@@ -1,3 +1,9 @@
+commit 7030e5569c9cd40eec56e707e5acb4e06f7bd743
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Mon Nov 29 17:00:22 2021 +0000
+
+    **ASSESSMENT DUE DATE EXTENDED TO JANUARY 2nd 2022** DAY:33 - [Notebook: scipy-stats]: (Last Commit) Amend subsection - Multiple Samples - for ease of readability and reference: i. tidy blurb about the generation of the collections (including new sample) and ii. add null hypothesis notation with the tag number and appropriate wording for the alternative hypothesis (should not have a notation). The last commit introduced ANOVA without detail (now moving towards section - Solution). (Propose) Hacking example code from the scipy.stats.f_oneway documentation before moving analysis a dataset.
+
 commit aa31cc24e8c8bbe4e12607cf565990e3ace3a709
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Thu Nov 25 21:51:55 2021 +0000
