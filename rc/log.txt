@@ -1,3 +1,9 @@
+commit 20d71f3573d2678245408d1eb9f32fe42e832746
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Fri Dec 3 21:23:10 2021 +0000
+
+    DAY:29 - [Notebook: scipy-stats]: (Last Commit) Section - Solution - subsection - Process (now called Statistic) manually coded the test statistic - requires revision with plots if remaining in the Notebook. (Solution) Introducing the Flavors of Cacao dataset on which to perform and display the results of ANOVA using scipy.stats. (Propose) Review Section - Solution - subsection - Statistic - before moving on to performing ANOVA on the Flavors of Cacao dataset.
+
 commit 8ed69453dee3722352d355ffd56076d268a3187f
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Thu Dec 2 20:35:02 2021 +0000
