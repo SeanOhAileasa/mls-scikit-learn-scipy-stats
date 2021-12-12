@@ -1,3 +1,9 @@
+commit 43fb10df172e22c30cd8ad23cded649337cbd7b5
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Thu Dec 9 12:28:44 2021 +0000
+
+    DAY:23 - [Notebook: scipy-learn]: Tidy notebook: i. moving section - Project Management - to section - Appendix; ii. update section - Instructions - adding blurb about the project requirements and objective plus marking scheme; iii. update section - Structure - adding blurb about initial project proposal and structure from now on; iv. section - Table of Contents - referencing subheadings only (each subsection has its table of contents); v. add a quick link to every heading and subheading for easy movement. (Propose) Tidy notebook (scipy-stats) with a similar structure as ``scikit-learn`` and review ``README.md``.
+
 commit 20d71f3573d2678245408d1eb9f32fe42e832746
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Fri Dec 3 21:23:10 2021 +0000
