@@ -1,3 +1,9 @@
+commit 238c6a8ef59b5ad63627b98a3b6a88801d2aa290
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Dec 12 23:49:31 2021 +0000
+
+    DAY:20 - [Notebook: scipy-learn]: Tidy notebook: i. moving section - Project Management - to section - Appendix; ii. update section - Instructions - adding blurb about the project requirements and objective plus marking scheme; iii. section - Structure - to later add blurb; iv. section - Table of Contents - referencing all headings; v. add a quick link to every heading and subheading for easy movement. (Propose) Reviewing and update ``README.md``.
+
 commit 43fb10df172e22c30cd8ad23cded649337cbd7b5
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Thu Dec 9 12:28:44 2021 +0000
