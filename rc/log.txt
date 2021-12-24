@@ -1,3 +1,9 @@
+commit a6eadb01f78811e273d0c6102cfc94368c9ec462
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Fri Dec 24 11:28:17 2021 +0000
+
+    DAY:8 - [Notebook: scipy-learn]: (Last Commit) README requires revision: i. Description; ii. Conclusion (plus Troubleshooting/Credits/Contact and anything else deemed appropriate for submission) - revert [DAY:2,0). (Project Management) Add subsection - Propose - for strategy before the submission date. Add subsection - Revision - links to specific content requiring review before submission. In addition, updating subsection - Outstanding. (Abstract) Add a blurb about machine learning and the vector space model. Briefly introducing supervised (classification) and unsupervised (clustering) learning and its various utility tools: i. convert the data into the vector space model, then apply machine learning and iii—performance evaluation via metrics. The abstract is considered complete and satisfies the assessment specification for a clear and concise overview of the scikit-learn Python library. (Propose). Systematically reviewing the remainder of the Jupyter Notebook and adding features to improve shortcomings.
+
 commit 20c2c021fc9c55e9a2abd2f8470f922e162a1ea8
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Thu Dec 16 21:41:10 2021 +0000
