@@ -1,3 +1,9 @@
+commit 20c2c021fc9c55e9a2abd2f8470f922e162a1ea8
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Thu Dec 16 21:41:10 2021 +0000
+
+    DAY:16 - [README]: Assessment README file structure in place. Add a blurb about: i. the Machine Learning & Statistics module learning outcomes; ii. motivating the use of the Binder interactive environment; iii. tidied assessment instructions section; iv adding subheading include motivation, description, conclusion, installation, troubleshoot, credits and contact details. (Propose) will revert to the README periodically until the deadline. In the interim, the bulk of the assessment is to be complete from day 10 (22nd December 2021), which is the Multi-paradigm Programming module assessment deadline).
+
 commit 238c6a8ef59b5ad63627b98a3b6a88801d2aa290
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Sun Dec 12 23:49:31 2021 +0000
