@@ -1,3 +1,9 @@
+commit 7f586a7fef1938f5b8ab539830d52742366e907d
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Fri Dec 24 19:42:56 2021 +0000
+
+    DAY:8 - [Notebook: scipy-stats]: (Project Management) Add subsection - Propose - for strategy before the submission date. Add subsection - Revision - links to specific content requiring review before submission. In addition, updating subsection - Outstanding. (Abstract) Considered complete and satisfies the assessment specification for a clear and concise overview of the scipy-stats Python library. (Propose) Finish section - ANOVA - then systematically review the remainder of the Jupyter Notebook (adding features to improve shortcomings.
+
 commit a6eadb01f78811e273d0c6102cfc94368c9ec462
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Fri Dec 24 11:28:17 2021 +0000
