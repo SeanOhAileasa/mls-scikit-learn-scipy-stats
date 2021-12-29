@@ -1,3 +1,9 @@
+commit c7ce18159c58358f36bc18e69e9426506b68dc6c
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Dec 26 21:46:57 2021 +0000
+
+    DAY:6 - [Notebook: scipy-stats]: (Last Commit) Add to subsection - Abstract - blurb promoting the case for learning the theory of statistics and the application via python all as one. (Solution) Set up the Flavors of Cacao dataset to apply ANOVA. (Propose) Finish ANOVA analyse.
+
 commit 7f586a7fef1938f5b8ab539830d52742366e907d
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Fri Dec 24 19:42:56 2021 +0000
