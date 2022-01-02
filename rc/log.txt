@@ -1,3 +1,9 @@
+commit 7bdbde327492b632381663e9326eb8a92b259178
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Jan 2 16:38:40 2022 +0000
+
+    HOURS:7 - [Notebook: scikit-learn]: (Solution) Subsection - Regression - reviewed and complete. (Propose) Review subsection - Classication.
+
 commit 6524cbcaad3b1ced0627274a3a2d09f8b6b8cd2a
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Sun Jan 2 11:08:50 2022 +0000
