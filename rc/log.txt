@@ -1,3 +1,9 @@
+commit 7f23fdc1c3026674fbde13279464fdbaaf4e175f
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Jan 2 18:34:31 2022 +0000
+
+    HOURS:5 - [Notebook: scikit-learn]: (Solution) Subsection - Classification - reviewed and complete. (Propose) Review subsection - Clustering.
+
 commit 7bdbde327492b632381663e9326eb8a92b259178
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Sun Jan 2 16:38:40 2022 +0000

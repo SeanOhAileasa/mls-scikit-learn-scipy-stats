@@ -31,7 +31,7 @@ The terminology and concepts introduced thus far can be considered wordy and of 
 
 It turns out that it involved just one or two commands from a Machine Learning ``Python`` library, which does most of the heavy lifting for you. So it's the formulation of the problem, the way you look at it, in terms of Machine Learning etc that's important. It is how to set up the model and then apply one of the off-the-shelf techniques to get the desired results.
 
-#### Use ``Binder`` ![Binder](https://mybinder.org/badge_logo.svg)
+#### Use ``binder``
 
 This repository can be interacted in an executable environment, making the code immediately reproducible for experimentation using ``Docker`` in the background. The ``Binder`` badge creates a virtual machine in the cloud that runs the Jupyter Notebook enabling live interaction. Note it does not change the original Jupyter Notebook as it cannot sync with GitHub. The ``requirements.txt`` (python convention) file includes the packages required to run each Jupyter Notebook.
 
