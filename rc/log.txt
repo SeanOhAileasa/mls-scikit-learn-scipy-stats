@@ -1,3 +1,9 @@
+commit 0c9a2512522b011464f69eaa005d72d6d5dc41a5
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Wed Dec 29 17:56:15 2021 +0000
+
+    DAY:3 - [Notebook: scipy-stats]: (Last Commit) Had set up the Flavors of Cacao dataset to apply ANOVA but now changed approach in demonstrating the technique. (Abstract/Introduction/Solution) Reviewed Jupyter Notebook thus far, making minor changes such as changing the sample mean representation (correct Roman format). (Solution) ANOVA is implemented on the Flavors of Cacao dataset, following the same approach as the mussel Mytilus trossulus in the scipy.stata documentation code. (Propose) i. finish section - Structure - and add a reference to the documentation explaining p-value introduced throughout the Notebook (remind the reader of the default hypothesis); ii. start and finish section - Conclusion. I cannot envision new material will be added at this late stage but will add any shortcoming in the section - Conclusion.
+
 commit c7ce18159c58358f36bc18e69e9426506b68dc6c
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Sun Dec 26 21:46:57 2021 +0000
