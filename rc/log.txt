@@ -1,3 +1,9 @@
+commit 0e7b0184c8e1b471e8ed055b3ec95e349c86dbca
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Jan 2 21:08:44 2022 +0000
+
+    HOURS:3 - [Notebook: scipy-stats]: Reviewed and complete. (Project Management) Move to ./rc for reference purposes only. (Propose) Add blurb to section - Conclusion.
+
 commit ba208a39f874712c184c13e6b8472d89f7268b3d
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Sun Jan 2 20:48:23 2022 +0000
