@@ -1,3 +1,9 @@
+commit 3dc54347cad976d7c06e603c56f9ad57af20ba9d
+Author: unknown <seanohaileasa@protonmail.com>
+Date:   Sun Jan 2 19:43:04 2022 +0000
+
+    HOURS:4 - [Notebook: scikit-learn]: (Solution) Subsection - Clustering - reviewed and complete. (Project Management) Move to ./rc for reference purposes only. (Propose) Add blurb to section - Conclusion.
+
 commit 7f23fdc1c3026674fbde13279464fdbaaf4e175f
 Author: unknown <seanohaileasa@protonmail.com>
 Date:   Sun Jan 2 18:34:31 2022 +0000
