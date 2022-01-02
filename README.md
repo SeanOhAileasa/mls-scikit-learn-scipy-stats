@@ -15,7 +15,7 @@ Stochastic is the opposite of deterministic. Something is deterministic if you k
 
 ii. Select an appropriate mathematical model of a real-world problem.
 
-Analysis of a real-world problem that might identify has a stochastic basis, and that there's some chance involved. On top of that, the next step is to determine the right way to look at that real-world problem. Is there a way of formulating it or modelling it using an off the shelf Statistical or Machine Learning ``Python`` library to frame that problem correctly?
+Analysis of a real-world problem that might identify has a stochastic basis and some chance involved. On top of that, the next step is to determine the right way to look at that real-world problem. For example, is there a way to formulate or model it using an off-the-shelf Statistical or Machine Learning ``Python`` library to frame that problem correctly?
 
 iii. Select an appropriate cost function for a given Machine Learning task.
 
@@ -33,7 +33,7 @@ It turns out that it involved just one or two commands from a Machine Learning `
 
 #### Use ``binder``
 
-This repository can be interacted in an executable environment, making the code immediately reproducible for experimentation using ``Docker`` in the background. The ``Binder`` badge creates a virtual machine in the cloud that runs the Jupyter Notebook enabling live interaction. Note it does not change the original Jupyter Notebook as it cannot sync with GitHub. The ``requirements.txt`` (python convention) file includes the packages required to run each Jupyter Notebook.
+This repository can be interacted in an executable environment, making the code immediately reproducible for experimentation using ``Docker`` in the background. The ``Binder`` badge creates a virtual machine in the cloud that runs the Jupyter Notebook enabling live interaction. Note it does not change the original Jupyter Notebook as it cannot sync with GitHub. The ``requirements.txt`` (``Python`` convention) file includes the packages required to run each Jupyter Notebook.
 
 ## Instructions
 
@@ -49,7 +49,7 @@ Containing two Jupyter Notebooks described further down and in addition to:
 
 #### ii. [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SeanOhAileasa/mls-scikit-learn-scipy-stats/blob/main/scikit-learn.ipynb) ``sklearn`` Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SeanOhAileasa/mls-scikit-learn-scipy-stats/HEAD?labpath=scikit-learn.ipynb):
 
-- A clear and concise overview of the ``scikit-learn`` Python library.
+- A clear and concise overview of the ``scikit-learn`` library.
 
 - Demonstrate three interesting ``scikit-learn`` algorithms. The choice may be based on the module content or otherwise - may have an overall spread of examples across the library or pick a particularly interesting part.
 
@@ -57,17 +57,39 @@ Containing two Jupyter Notebooks described further down and in addition to:
 
 ###### Motivation
 
-Initially, I proposed to apply the three algorithms of interest (Machine Learning) to ``Cybersecurity`` problems. However, given the background knowledge required by viewers of the Jupyter Notebook instead will introduce a theoretical application to ``Cybersecurity`` where appropriate. The overall objective is to ensure the module's learning outcomes are achieved (best done by using the datasets introduced).
+Initially, I proposed to apply the three algorithms of interest (Machine Learning) to ``Cybersecurity`` problems. However, given the background knowledge required by viewers of the Jupyter Notebook, instead focused on the overall objective of ensuring the module's learning outcomes are achieved (best done by using the datasets introduced).
 
 ###### Description
-&#x1F6A7;
 
-###### Conclusion
-&#x1F6A7;
+- The Jupyter Notebook is organised in four parts (including the ``Conclusion``):
+
+i. The ``Abstract`` provides a clear and concise overview of the ``scikit-learn`` library and introduces an outline of the core ``Machine Learning`` problems.
+
+ii. The ``Introduction`` serves as the foundation for introducing ``Machine Learning`` (emphasis on ``regression``) without reference to the ``scikit-learn`` library.
+
+``Regression`` is an overarching idea within ``Machine Learning`` and ``scikit-learn`` [10]. Given this fact, this Jupyter Notebook ``Introduction`` first presents a simple data-driven problem to demonstrate the practice of:
+
+i. data collection; 
+
+ii. descriptive statistics; 
+
+iii. correlation; 
+
+iv. data visualisation; 
+
+v. model building; 
+
+vi. extrapolation and regression analysis [11].
+
+The ``Introduction`` will intentional not use the ``scikit-learn`` library as this will form the baseline of knowledge required to understand the algorithms presented.
+
+iii. The ``Solution`` is subdivided into the demonstrations of the core ``Machine Learning`` problems (``scikit-learn`` algorithms of interest).
+
+First, analysing the example code from the ``sklearn`` documentation with a follow up of a simulated or analysis of a simple dataset.
 
 #### iii. [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SeanOhAileasa/mls-scikit-learn-scipy-stats/blob/main/scipy-stats.ipynb) ``scipy.stats`` Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SeanOhAileasa/mls-scikit-learn-scipy-stats/HEAD?labpath=scipy-stats.ipynb):
 
-- A clear and concise overview of the ``scikit-stats`` Python library.
+- A clear and concise overview of the ``scikit-stats`` library.
 
 - An example hypothesis test using ``ANOVA``. The dataset used must be appropriate to use ``ANOVA``, ensuring the assumptions underlying ``ANOVA`` are met, and then perform and display the results of ``ANOVA`` using ``scipy.stats``.
 
@@ -79,15 +101,23 @@ From medical studies to research experiments, from polling organizations to Unit
 
 ###### Description
 
-&#x1F6A7;
+- The Jupyter Notebook is organised in four parts:
 
-###### Conclusion
+i. The ``Abstract`` provides a clear and concise overview of the ``scipy-stats`` library.
 
-&#x1F6A7;
+ii. The ``Introduction`` serves as the foundation for introducing ``ANOVA`` (emphasis on ``t-test``) using the ``scipy-stats`` library with a simulated dataset.
+
+An analysis of collections ``a`` and ``b`` uses a specific type of ``t-test`` called the ``Independent Samples T-Test``, which assumes the numbers in the collections ``a`` and ``b`` are different (not related) [6]. For example, an ``Independent Samples T-Test`` might give vaccine ``a`` to a particular group and vaccine ``b``to one specific group and then compares the two groups [6]. 
+
+The ``Paired T-test`` is when the collection of numbers depend on one another, and an example is represented in the ``Appendix`` [6]. This type of test is helpful in scenarios such as a teaching environment. Teaching primary school children some topic and determining if they had learned anything about the subject, the teacher might: i. give a standardised test before the lesson; ii. present the lesson, and iii. do another standardised test; pairing the numbers before and after the class for each student (have a pair of numbers for each student) [6]
+
+iii. The ``Solution`` builds upon the ``Introduction`` by highlighting the shortcoming of the ``t-test`` when there are multiple samples (more than two).
+
+Demonstrating ``ANOVA`` by first experimenting with the ``scipy-stats.f_oneway`` documentation example code, then using the [[``Flavors of Cacao``](http://flavorsofcacao.com/)] dataset created by [[``R. Tatman``](https://www.kaggle.com/rtatman/chocolate-bar-ratings)] and uploaded to Kaggle in August 2017.
 
 ## Installation
 
-- Require Python to be loaded on your local machine. Recommend downloading and installing Anaconda.
+- Require ``Python`` to be loaded on your local machine. Recommend downloading and installing Anaconda.
 
 https://www.anaconda.com/download/
 
@@ -113,16 +143,14 @@ https://www.anaconda.com/download/
 
 - An alternative to downloading and running on a local machine with all features included (links/equation tag number etc) can view via [[``scikit-learn``](https://nbviewer.jupyter.org/github/SeanOhAileasa/mls-scikit-learn-scipy-stats/blob/main/scikit-learn.ipynb)][[``scipy-stats``](https://nbviewer.jupyter.org/github/SeanOhAileasa/mls-scikit-learn-scipy-stats/blob/main/scipy-stats.ipynb)].
 
-## Troubleshoot
-
-&#x1F6A7;
-
 ## Credits
 
-&#x1F6A7;
+``Ian McLoughlin`` - Lecturer at ``GMIT`` - Teaching style complements subjects as broad as Data Analytics, promoting self-learning's importance.
 
 ## Contact
 
-&#x1F6A7;
+Undergraduate nearing completion (January 11th, 2022) of the ``Higher Diploma in Data Analytics`` with ``Galway/Mayo Institute of Technology``. 
+
+``Associate Apprenticeship Programme Candidate`` in ``Cybersecurity`` and seeking a sponsor.[[GitHub](https://github.com/SeanOhAileasa)].
 
 ## END
